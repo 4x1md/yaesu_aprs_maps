@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Yaesu VX-8DR/DE APRS Bessages Map</title>
+    <!-- css -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic,500' rel='stylesheet' type='text/css'>
+    <link href="css/yaesu.map.css" rel="stylesheet" type="text/css" />
+    <!-- javascript -->
+    <script src="js/angular.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?key=&extension=.js"></script>
+    <script src="js/memory.maps.js"></script>
+    <script src="js/parser.js"></script>
+    <script src="js/yaesu.map.js"></script>
+</head>
+<body>
+    <div ng-app="YaesuMapApp">
+        <div ng-controller="YaesuMapController" class="main">
+            <h2>Yaesu VX-8DR/DE APRS Bessages Map</h2>
+            <hr />
+            <div class="left">
+                <div>
+                    <div id="map" class="map"></div>
+                </div>
+            </div>
+            <div class="right">
+                <div style="margin: 10px 0px;">
+                    <span><b>File:&nbsp;</b></span>
+                    <input type='file' id='fileinput' ng-model="fileInput" class="input-control file-upload">
+                    <input type='button' ng-disabled='beacons.length == 0' value='Update map' ng-click='updateMap();' class="input-control update-button">
+                </div>
+                <hr style="width: 97%;" />
+                <!-- Decoded APRS beacons -->
+                <div class="messages">
+                    <div ng-repeat="beacon in beacons" class="message">
+                        <div class="callsign-field">
+                            <b>From:</b>&nbsp;<a href="{{beacon.srcUrl}}" target="_blank">{{beacon.srcCallsign}}</a>
+                        </div>
+                        <div class="callsign-field">
+                            <b>To:</b>&nbsp;<a href="{{beacon.destUrl}}" target="_blank">{{beacon.destCallsign}}</a>
+                        </div>
+                        <div class="time-field">
+                            <b>Time:</b>&nbsp;{{beacon.dateTime}}
+                        </div>
+                        <div class="message-body">
+                            <i>{{beacon.message}}</i>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of decoded APRS beacons -->
+            </div>
+            <hr />
+            <div>
+                <span class="status-item">Status:&nbsp;{{status}}</span>
+                <span class="status-item">Radio:&nbsp;{{radioModel}}</span>
+                <span class="status-item">Beacons:&nbsp;{{beacons.length}}</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
