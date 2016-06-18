@@ -1,0 +1,89 @@
+﻿body {
+    font-size: 12px;
+    font-family: Roboto,Tahoma,Verdana,Courier;
+}
+
+.main {
+    margin: auto;
+    width: 1170px;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+.left {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right {
+    height: 500px;
+    vertical-align: top;
+    width: 450px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.input-control {
+    font-size: 12px;
+    font-family: Roboto,Tahoma,Verdana,Courier;
+}
+
+.file-upload {
+    width: 280px;
+}
+
+.update-button {
+    width: 120px;
+}
+
+.messages {
+    height: 450px;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.callsign-field {
+    width: 110px;
+    display: inline-block;
+}
+
+.time-field {
+    width: 220px;
+    display: inline-block;
+}
+
+.message-body {
+    margin: 5px 0px;
+}
+
+.map {
+    width: 700px;
+    height: 500px;
+    /*margin: auto;*/
+}
+
+.marker-title {
+    display: inline-block;
+}
+
+.marker-content {
+    width: 350px;
+    font-size: 14px !important;
+    border-top: 1px solid #ccc;
+    /* padding-top: 10px; */
+    overflow: hidden;
+    overflow-wrap: break-word;
+    padding: 10px 0px;
+}
+
+.status-item {
+    display: inline-block;
+    width: 150px;
+    margin-right: 30px;
+}
