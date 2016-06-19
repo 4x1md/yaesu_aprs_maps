@@ -8,7 +8,7 @@ To be completed...
 
 ## Want to try it yourself?
 
-Visit [https://4z7dtf.github.io/yaesu_aprs_maps/](https://4z7dtf.github.io/yaesu_aprs_maps/)!
+Visit [https://4z7dtf.github.io/yaesu_aprs_maps/](https://4z7dtf.github.io/yaesu_aprs_maps/)
 
 ## Plans for future develompent
 
@@ -27,6 +27,3 @@ You are more than welcome to contact me with any questions, suggestions or propo
 73 de 4Z7DTF
 
 ![73's](https://raw.githubusercontent.com/4z7dtf/yaesu_aprs_maps/master/images/vx8_73.jpg)
-
-
-
