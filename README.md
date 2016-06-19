@@ -6,9 +6,11 @@ Yaesu VX-8DR/DE memory parser which puts incoming APRS beacon messages on Google
 
 To be completed...
 
-## Want to try it yourself?
+## Working version
 
-Visit [https://4z7dtf.github.io/yaesu_aprs_maps/](https://4z7dtf.github.io/yaesu_aprs_maps/)
+Working version of the project is located here:
+
+[https://4z7dtf.github.io/yaesu_aprs_maps/](https://4z7dtf.github.io/yaesu_aprs_maps/)
 
 ## Plans for future develompent
 
@@ -17,7 +19,8 @@ Visit [https://4z7dtf.github.io/yaesu_aprs_maps/](https://4z7dtf.github.io/yaesu
 ## Links
 1. [Yaesu VX-8DR/DE APRS Beacons Map](https://4z7dtf.github.io/yaesu_aprs_maps/)
 
-## Questions? Suggestions?
+## Questions? Suggestions? Bug reports?
+
 You are more than welcome to contact me with any questions, suggestions or propositions regarding this project. You can:
 
 1. Visit [my QRZ.COM page](https://www.qrz.com/db/4Z7DTF)
