@@ -10,6 +10,11 @@ I live in Israel near where [tropospheric propagation](https://en.wikipedia.org/
 
 ![APRS beacon from Bulgaria](https://raw.githubusercontent.com/4x5dm/yaesu_aprs_maps/master/images/aprs_map_1.png)
 
+I thought that it would be nice not only idenitfy the source of the received beacons by their call sign but also to put them on a map. At first, I attempted to create a VX-8 memory parser using Python. I contacted [Robert Terzi W2RCT](https://github.com/rct) who guided me through [the source code of Chirp](https://github.com/tylert/chirp.hg)
+and helped to find the relevant information about the memeory of the HT. After having understood how to extract the received APRS beacons from HT's memory I wrote the JavaScript version of the parser and created a WEB project which parses the memory and shows beacons list and a map.
+
+![APRS beacon from Bulgaria](https://raw.githubusercontent.com/4x5dm/yaesu_aprs_maps/master/images/aprs_map_2.png)
+
 ## Working version
 
 Working version of the project is located here:
