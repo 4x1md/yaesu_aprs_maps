@@ -6,12 +6,12 @@ Yaesu VX-8DR/DE memory parser which puts incoming APRS beacon messages on Google
 
 ![APRS beacons map](https://raw.githubusercontent.com/4x5dm/yaesu_aprs_maps/master/images/aprs_map_0.png)
 
-I live in Israel near where [tropospheric propagation](https://en.wikipedia.org/wiki/Tropospheric_propagation) over the Mediterranean sea occurs very often. When it occurs, VHF QSOs with Greece and even with more distant countries become possible. I usually use the [William Hepburn's Worldwide Tropospheric Ducting Forecast](http://www.dxinfocentre.com/tropo_eur.html) for propagation predictions and for the practical propagation monitoring I use the APRS capability of my Yaesu VX-8DE transceiver. Often, when the propagation opens I receive APRS beacons from all over Greece and even from Bulgaria.
+I live in Israel where [tropospheric propagation](https://en.wikipedia.org/wiki/Tropospheric_propagation) over the Mediterranean sea occurs very often. When it occurs, VHF QSOs with Greece and even with more distant countries become possible. I usually use [William Hepburn's Worldwide Tropospheric Ducting Forecast](http://www.dxinfocentre.com/tropo_eur.html) for propagation predictions and for actual propagation monitoring I use the APRS capability of my Yaesu VX-8DE transceiver. Often, when the propagation opens I receive APRS beacons from all over Greece and even from Bulgaria.
 
 ![APRS beacon from Bulgaria](https://raw.githubusercontent.com/4x5dm/yaesu_aprs_maps/master/images/aprs_map_1.png)
 
 I thought that it would be nice not only to idenitfy the source of the received beacons by their call sign but also to put them on a map. At first, I attempted to create a VX-8 memory parser using Python. I contacted [Robert Terzi W2RCT](https://github.com/rct) who guided me through [the source code of Chirp](https://github.com/tylert/chirp.hg)
-and helped to find the relevant information about the memeory of the HT. After having understood how to extract the received APRS beacons from HT's memory I wrote the JavaScript version of the parser and created a WEB project which parses the memory and shows beacons list and a map.
+and helped to find the relevant information about the memeory of the HT. After having understood how to extract the received APRS beacons from HT's memory I wrote the JavaScript version of the parser and created a WEB project which parses the memory and shows beacons list and their map.
 
 ![APRS beacon from Bulgaria](https://raw.githubusercontent.com/4x5dm/yaesu_aprs_maps/master/images/aprs_map_2.png)
 
